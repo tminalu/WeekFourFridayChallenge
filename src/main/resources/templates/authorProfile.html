@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Author Profile</title>
+    <div th:insert="base :: head"></div>
+    <style>
+        h4{text-align: center}
+        h5{text-align: center}
+        h6{text-align: center; font-style: normal}
+        p{text-align: left; font-size:15px}
+    </style>
+</head>
+<body>
+<div th:insert="base :: navlinks"></div>
+<br>
+<div class="row">
+    <div class="col-sm-4">
+    </div>
+    <div class="col-sm-4">
+        <div class="container">
+            <div class="jumbotron">
+                <h1><strong>About the Author</strong></h1>
+                <br>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-2">
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="card">
+
+                                <div class="card-body">
+                                    <h4 class="card-text"><strong>Temesgen M</strong></h4>
+                                    <h5 class="card-text">Information Security</h5>
+                                    <h5 class="card-text">Java Web Developer</h5>
+                                    <br>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+    </div>
+</div>
+<div th:insert="base :: footer"></div>
+<div th:insert="base :: bootstrapScripts"></div>
+</body>
+</html>

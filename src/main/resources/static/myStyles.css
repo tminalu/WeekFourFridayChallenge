@@ -1,0 +1,59 @@
+body{
+    background-image:
+            url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR1mldfngRtQ0sRDdNPsVRhkC581GAUxlxfUkenet2LjyV0Rz0V");
+    background-size: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+h5{
+    text-align: left;
+}
+
+h6{
+    text-align: left;
+    font-style: italic;
+}
+
+.jumbotron{
+    background-color: deepskyblue;
+    align-self: center;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+
+.jumbotron.card{
+    align-self: center;
+    text-align: left;
+    /*width: 45rem;*/
+}
+
+.jumbotron.card.card-body{
+    background-color: lightsteelblue;
+}
+
+.card{
+    align-self: center;
+    text-align: center;
+    /*width: 25rem;*/
+    background-color: lightsteelblue;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
